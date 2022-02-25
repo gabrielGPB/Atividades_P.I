@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Qual é a do seu time??</h1>
+    <span id="span_text">EU VOU SUMIR EM</span> <br>
+
+    <button onclick="test()">OLHA A SURPRESA</button>
+    <button id="SOMA" onclick="concatenar()">QUANTO É 1+1?</button> <br><br>
+    <span id="dog">QUER VER UM CACHORRO?</span><br>
+    <button onclick="imgdog()">SIM!!</button>
+
+
+</body>
+</html>
+
+<script>
+    // comentario de uma linha
+
+    /* comentario
+    de 
+    varias 
+    linhas
+    */
+
+    //innerHTML = mexer no corpo de tal (interferir no corpo da html ou executar determinada ação)
+   
+    function imgdog() {
+
+        dog.innerHTML = '<img src="https://img.elo7.com.br/product/main/18038FD/cachorrinho-lhasa-apso-racas.jpg" alt="CATIORO">'
+        
+    }
+
+    function test() {
+
+        span_text.innerHTML =  '<b>MARIO MAMA MIA NO ERES PRINCESA PEACH?</b>'; //<<<<-- possivel colocar tags
+        
+    }
+
+    function concatenar() {
+        
+        SOMA.innerHTML += ' 2 BURRO!'; // + concatena ao conteudo
+
+    }
+
+
+</script> 
+
+</script>

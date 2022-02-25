@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invisibilidade</title>
+</head>
+<body>
+
+    <h1>O que faz um triatleta?</h1><br><br>
+
+    
+    <button onclick="nada()">Nada</button>
+    <button onclick="corre()">Corre</button><br><br><br>
+
+    <img style="width: 250px; display: none;" id="img_nada" src="https://img.freepik.com/fotos-gratis/atleta-nadando-debaixo-d-agua-com-touca_23-2149028390.jpg?w=740" >
+
+    <img style="width: 250px; display: none;" id="img_corre" src="https://envato-shoebox-0.imgix.net/4dff/31ea-fcb2-44fa-b446-1d0a82975566/2017.07.04+-+Running+Track19379.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=800&s=c4d7d27a09750583a77769f080f3b41e" >
+
+    
+
+</body>
+</html>
+
+<script>
+function nada() {
+    
+img_nada.style.display = 'block'
+img_corre.style.display = 'none'
+
+}
+
+function corre() {
+
+    img_corre.style.display = 'block'
+    img_nada.style.display = 'none'
+
+}
+
+
+
+</script>

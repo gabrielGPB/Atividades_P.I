@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Brasil x Alemanha</h1> <br><br>
+    <button onclick="golbra()">Gol do Brasil</button>
+    <button onclick="golale()">Gol da Alemanha</button>
+    <button onclick="restart()">Recomeçar partida</button><br><br>
+
+    <b>Tempo real do jogo:</b> <br><br>
+
+    <span id="frase"></span><br>
+
+    
+
+</body>
+</html>
+
+<script>
+
+    function golbra() {
+        
+        frase.innerHTML += '<span style="color: green;">É goooolll do Brasil!!!</span><br><br>'
+
+    }
+
+    function golale() {
+
+    frase.innerHTML += '<span style="background-color:rgb(109, 11, 11); color: yellow; ">É goooolll da Alemanha!!!</span><br><br>'
+    
+    }
+
+    function restart() {
+
+        frase.innerHTML = ' '
+        
+    }    
+
+    
+
+
+</script>
