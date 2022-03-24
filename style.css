@@ -1,0 +1,37 @@
+#div1{
+
+    background-color: #74006a;
+    width: 800px;
+    height: 200px;
+
+}
+#div2{
+
+    background-color: #f800ec;
+    width: 40%;
+    height: 40%;
+
+}
+
+#paragraph{
+    color: rgb(30, 255, 0);
+    background-color: rgb(255, 145, 0);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+#div3{
+
+    width: 43%;
+    height: 80vh;
+    background-color: rgb(250, 59, 59);
+
+}
+
+#div4{
+
+    width: 10vw;
+    height: 30%;
+    background-color: rgb(92, 49, 90);
+}
