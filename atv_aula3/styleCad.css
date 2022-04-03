@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #330708;
+}
+
+.header{
+    border-bottom: 2px solid #e87624;    
+    
+}
+
+.container{
+    color: #e87624;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul {
+    color: #626fe3;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.header .container{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{ 
+    text-decoration: none;
+    color:#e8d826; 
+}
+
+ul li {
+    text-decoration: none;
+    color:#e8d826;
+}
+
+.agora{
+    font-weight: 900;
+}
+
+
+/* Login */
+
+.banner .card{
+    background-color:   #e84624;
+    height: 680px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #330708;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    border: 1px solid #330708;
+    border-radius: 30px;
+}
+
+h4{
+    color: #e8d826;  
+}
+
+h1{
+    color: #e8d826;
+}
